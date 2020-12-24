@@ -1,5 +1,8 @@
 name: Packaging
-on: pull_request
+on:
+  push:
+   branches:
+    - 5.28.3-patches
 
 env:
   base_version: 5.28.3
